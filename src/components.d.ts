@@ -12,8 +12,8 @@ declare module 'vue' {
     CarbonPedestrian: typeof import('~icons/carbon/pedestrian')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
     CarbonWarning: typeof import('~icons/carbon/warning')['default']
-    Footer: typeof import('./components/Footer.vue')['default']
-    README: typeof import('./components/README.md')['default']
+    Footer: typeof import('C:/Users/Edgardo/Desktop/Projects/vue-portfolio/vue-portfolio/src/components/Footer.vue')['default']
+    README: typeof import('C:/Users/Edgardo/Desktop/Projects/vue-portfolio/vue-portfolio/src/components/README.md')['default']
   }
 }
 
