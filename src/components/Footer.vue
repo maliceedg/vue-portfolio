@@ -11,7 +11,17 @@ const toggleLocales = () => {
 </script>
 
 <template>
-  <nav class="text-xl mt-6">
+  <div class="container mx-auto px-6">
+    <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+      <div class="sm:w-2/3 text-center py-6">
+        <p class="text-sm text-blue-700 font-bold mb-2">
+          © 2021 by
+          <a href="https://github.com/maliceedg/">Edgardo González & Angelly Tallavo</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- <nav class="text-xl mt-6">
     <router-link class="icon-btn mx-2" to="/" :title="t('button.home')">
       <carbon-campsite />
     </router-link>
@@ -36,5 +46,5 @@ const toggleLocales = () => {
     <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
       <carbon-logo-github />
     </a>
-  </nav>
+  </nav>-->
 </template>

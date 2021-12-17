@@ -4,6 +4,7 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    BannerSection: typeof import('C:/Users/Edgardo/Desktop/Projects/vue-portfolio/vue-portfolio/src/components/BannerSection.vue')['default']
     CarbonCampsite: typeof import('~icons/carbon/campsite')['default']
     CarbonDicomOverlay: typeof import('~icons/carbon/dicom-overlay')['default']
     CarbonLanguage: typeof import('~icons/carbon/language')['default']
@@ -12,7 +13,12 @@ declare module 'vue' {
     CarbonPedestrian: typeof import('~icons/carbon/pedestrian')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
     CarbonWarning: typeof import('~icons/carbon/warning')['default']
+    Developers: typeof import('C:/Users/Edgardo/Desktop/Projects/vue-portfolio/vue-portfolio/src/components/Developers.vue')['default']
+    Drawer: typeof import('C:/Users/Edgardo/Desktop/Projects/vue-portfolio/vue-portfolio/src/components/Drawer.vue')['default']
+    FacebookIcon: typeof import('~icons/fa/cebook-icon')['default']
     Footer: typeof import('C:/Users/Edgardo/Desktop/Projects/vue-portfolio/vue-portfolio/src/components/Footer.vue')['default']
+    HeroSection: typeof import('C:/Users/Edgardo/Desktop/Projects/vue-portfolio/vue-portfolio/src/components/HeroSection.vue')['default']
+    Navbar: typeof import('C:/Users/Edgardo/Desktop/Projects/vue-portfolio/vue-portfolio/src/components/Navbar.vue')['default']
     README: typeof import('C:/Users/Edgardo/Desktop/Projects/vue-portfolio/vue-portfolio/src/components/README.md')['default']
   }
 }
