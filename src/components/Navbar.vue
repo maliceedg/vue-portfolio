@@ -88,6 +88,12 @@
                     >Settings</a>
                   </MenuItem>
                   <MenuItem v-slot="{ active }">
+                    <a
+                      href="#"
+                      :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']"
+                    >Programs</a>
+                  </MenuItem>
+                  <MenuItem v-slot="{ active }">
                     <router-link
                       to="/login"
                       href="#"
@@ -154,6 +160,7 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/vue/outline'
 const navigation = [
   { name: 'Home', href: '/main-view', current: true },
   { name: 'Developer', href: '/developer', current: false },
+  { name: 'Programs', href: '/programs', current: false },
   { name: 'Portfolio', href: '#', current: false },
 ]
 
